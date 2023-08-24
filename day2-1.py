@@ -1,0 +1,6 @@
+agen=input("what is ur age ?\n")
+age=float(agen)
+months=(90*12)-(age*12)
+weeks=(90*52)-(age*52)
+days=(90*365)-(age*365)
+print(f"you have {days} days or {weeks} weeks or {months} months")
